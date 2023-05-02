@@ -1,0 +1,42 @@
+{
+  "name": "vue-spa",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "test": "vue-cli-service test:unit --coverage --colors",
+    "lint": "vue-cli-service lint",
+    "cyopen": "cypress open",
+    "cynogui": "node_modules/.bin/cypress run --spec 'cypress/integration/main.spec.js'"
+  },
+  "dependencies": {
+    "@cypress/webpack-dev-server": "^1.8.3",
+    "axios": "^0.24.0",
+    "base-64": "^1.0.0",
+    "core-js": "^3.6.5",
+    "cypress": "^9.5.1",
+    "element-ui": "^2.15.6",
+    "flush-promises": "^1.0.2",
+    "sinon": "^13.0.1",
+    "vue": "^2.6.11",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^5.0.8",
+    "@vue/cli-plugin-unit-jest": "^5.0.8",
+    "@vue/cli-plugin-vuex": "^5.0.8",
+    "@vue/cli-service": "^5.0.8",
+    "@vue/eslint-config-standard": "^8.0.1",
+    "@vue/test-utils": "^1.0.3",
+    "babel-eslint": "^10.1.0",
+    "cypress-file-upload": "^5.0.8",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-vue": "^6.2.2",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "jest": {}
+}

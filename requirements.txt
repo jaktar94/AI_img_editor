@@ -1,0 +1,12 @@
+Flask
+Flask-Cors
+numpy
+opencv-python
+scipy
+Pillow
+torch
+torchaudio
+torchvision
+pytest
+pytest-cov
+requests
