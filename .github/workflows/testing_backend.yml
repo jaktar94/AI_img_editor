@@ -46,8 +46,8 @@ jobs:
 
     - name: Run unit tests
       run: |
-        python -m pytest tests/unit_tests --cov=src --cov=ai_filters --cov=classic_filters
+        python -m pytest test/unit_tests --cov=src --cov=ai_filters --cov=classic_filters
 
     - name: Run integration tests
       run: |
-        python -m pytest tests/integr_tests
+        python -m pytest test/integr_tests
