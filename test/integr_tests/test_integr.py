@@ -1,7 +1,7 @@
+import multiprocessing
 import os
 import pathlib
 import unittest
-import multiprocessing
 from time import sleep
 
 import requests
@@ -9,7 +9,7 @@ from PIL import Image
 
 
 def backend_process():
-    import main
+    pass
 
 
 class IntegrationTests(unittest.TestCase):
