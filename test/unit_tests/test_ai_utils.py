@@ -4,7 +4,7 @@ from ai_filters.Style_GAN.utils import *
 
 class AIUtilsTestCase(unittest.TestCase):
     def setUp(self):
-        image = Image.open('tests/test_images/fox_320_480.jpg').convert("RGB")
+        image = Image.open('test/test_images/fox_320_480.jpg').convert("RGB")
         self.image = np.asarray(image)
 
     def testCommonImageProcessing(self):

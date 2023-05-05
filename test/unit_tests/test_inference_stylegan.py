@@ -7,7 +7,7 @@ from src.filter_names_enum import FilterNamesEnum
 
 class InferenceStyleganTestCase(unittest.TestCase):
     def setUp(self):
-        self.image = cv2.imread('tests/test_images/fox_320_480.jpg', cv2.IMREAD_UNCHANGED)
+        self.image = cv2.imread('test/test_images/fox_320_480.jpg', cv2.IMREAD_UNCHANGED)
         self.image = cv2.cvtColor(self.image, cv2.COLOR_BGR2RGB)
 
     def testCommonOutput(self):
